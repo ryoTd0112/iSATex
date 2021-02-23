@@ -2,7 +2,7 @@ from sys import modules
 
 from wx import NewIdRef
 
-from .util import DotChain
+from util import DotChain
 
 
 class ConstError(TypeError):

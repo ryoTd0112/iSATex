@@ -1,6 +1,6 @@
 from numpy import exp, log
 
-from .objects import FloatContainer, PeakFunctionContainerBase
+from objects import FloatContainer, PeakFunctionContainerBase
 
 
 class Lorentz(PeakFunctionContainerBase):

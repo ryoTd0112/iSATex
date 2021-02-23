@@ -6,16 +6,16 @@ from typing import Iterable, List, Tuple, Union
 from matplotlib.colors import Colormap
 from wx import Colour, NewEventType, PyCommandEvent, PyEventBinder
 
-from .const import (ERROR_COLOR, MAIN_SELECTION_COLOR, NAME, SELECTION_COLOR,
+from const import (ERROR_COLOR, MAIN_SELECTION_COLOR, NAME, SELECTION_COLOR,
                    SUCCESS_COLOR)
-from .core import iSATexObject
-from .objects import (DEFAULT_DIRECTION_CONTAINER, NEW_PROJECT_NAME,
+from core import iSATexObject
+from objects import (DEFAULT_DIRECTION_CONTAINER, NEW_PROJECT_NAME,
                      ChoiceContainer, Container2Value, DataContainer,
                      DecodeFunctionContainerBase, EncodeFunctionContainerBase,
                      FunctionContainerBase, IntContainer,
                      MappingFunctionContainerBase, PeakFunctionContainerBase,
                      PeakType, Preset, Recipe, SpectrumFunctionContainerBase)
-from .util import GetFileName, HasValidElement
+from util import GetFileName, HasValidElement
 
 
 class iSATexEventBinder(PyEventBinder, iSATexObject):

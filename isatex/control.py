@@ -31,17 +31,17 @@ from wx.lib.agw.ultimatelistctrl import (ULC_BORDER_SELECT, ULC_FORMAT_CENTER,
 from wx.lib.dialogs import ScrolledMessageDialog
 from wx.lib.scrolledpanel import ScrolledPanel
 
-from .const import (DEFAULT_COLORMAP, ID_ADD, ID_BROWSE, ID_CLEAR, ID_DONT_SAVE,
+from const import (DEFAULT_COLORMAP, ID_ADD, ID_BROWSE, ID_CLEAR, ID_DONT_SAVE,
                    ID_NORMAL_BUTTON, ID_NORMAL_COMBOBOX, ID_NORMAL_LINE,
                    ID_NORMAL_TEXT, ID_PREVIEW, ID_SAVE, ID_SET,
                    NEW_MENU_ITEM_HELP)
-from .core import ChameleonWidgetBase
-from .objects import (ArgumentContainerBase, ChoiceContainer, DataContainer,
+from core import ChameleonWidgetBase
+from objects import (ArgumentContainerBase, ChoiceContainer, DataContainer,
                      DecodeFunctionContainerBase, EncodeFunctionContainerBase,
                      FunctionContainerBase, IntContainer,
                      IterableArgumentContainerBase, ListArgumentContainer,
                      Project, Spectrum, StrContainer, TupleArgumentContainer)
-from .util import GetExtension, GetFileExtention, HasValidElement
+from util import GetExtension, GetFileExtention, HasValidElement
 
 
 class NormalText(StaticText, ChameleonWidgetBase):

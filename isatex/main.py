@@ -4,7 +4,7 @@ from typing import Any
 from wx import (EVT_MENU, EVT_MENU_OPEN, ID_CLOSE, ICON_NONE, App, Frame,
                 LogError, NewIdRef, wxEVT_CLOSE_WINDOW)
 
-from .const import (APPLICATION_NAME, COLOR_MANAGER, COLOR_THEME_LIST,
+from const import (APPLICATION_NAME, COLOR_MANAGER, COLOR_THEME_LIST,
                    DATA_BUFFER_SIZE, DATA_MANAGER, DECODE_ENCODING,
                    DECODE_MANAGER, ENCODE_DELIMITER, ENCODE_ENCODING,
                    ENCODE_MANAGER, EVENT_LIST, EVENT_MANAGER,
@@ -19,16 +19,16 @@ from .const import (APPLICATION_NAME, COLOR_MANAGER, COLOR_THEME_LIST,
                    SELECTED_MAPPING_FUNCTION, SETTING_FILE_PATH,
                    SPECTRUM_FUNCTION_PRESET_LIST, SPECTRUM_MANAGER,
                    WINDOW_SIZE)
-from .container import CustomMenuItemBase, PanelBase
-from .core import CommunicableObjectBase, SettingStorableObjectBase
-from .defaultevent import ExitEvent, LaunchEvent
-from .manager import (ColorManager, DataManager, DecodeManager, EncodeManager,
+from container import CustomMenuItemBase, PanelBase
+from core import CommunicableObjectBase, SettingStorableObjectBase
+from defaultevent import ExitEvent, LaunchEvent
+from manager import (ColorManager, DataManager, DecodeManager, EncodeManager,
                      EventManager, FunctionManager, IOManager, MappingManager,
                      MenubarManager, PanelManager, PeakManager,
                      PreferenceManager, ProjectManager, SpectrumManager)
-from .objects import (PeakType, SpectrumFunctionContainerAccessor,
+from objects import (PeakType, SpectrumFunctionContainerAccessor,
                      SpectrumFunctionContainerBase)
-from .util import DotChain, DotNotationDict, Singleton
+from util import DotChain, DotNotationDict, Singleton
 
 logger = getLogger(__name__)
 logger.setLevel(DEBUG)

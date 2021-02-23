@@ -1,0 +1,9 @@
+{
+    "COLOR": {
+        "ERROR": "#ff0000",
+        "MAIN_SELECTION": "#fd7e00",
+        "SELECTION": "#FFD400",
+        "SUCCESS": "#00ff00"
+    },
+    "NAME": "Default Color"
+}

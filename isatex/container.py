@@ -6,7 +6,7 @@ from wx import (ITEM_CHECK, ITEM_NORMAL, ITEM_RADIO, EmptyString, MenuItem,
 
 from core import (CommunicableObjectBase, SettingStorableObjectBase,
                   iSATexObject)
-from .defaultevent import (ColorEvent, ColormapChangeEvent, ColorRegisterEvent,
+from defaultevent import (ColorEvent, ColormapChangeEvent, ColorRegisterEvent,
                           ColorSelectionEvent, DataContentsChangeEvent,
                           DataEvent, DataSelectionChangeEvent, DecodeEvent,
                           DecodeFunctionDeregisterEvent,
@@ -56,8 +56,8 @@ from .defaultevent import (ColorEvent, ColormapChangeEvent, ColorRegisterEvent,
                           wxEVT_SPECTRUM_FUNCTION_LIST_SELECT,
                           wxEVT_SPECTRUM_FUNCTION_REGISTER,
                           wxEVT_TABLE_SIZE_CHANGE)
-from .objects import PeakType
-from .util import GetShowPanelLabel
+from objects import PeakType
+from util import GetShowPanelLabel
 
 
 class EventReceptorBase(iSATexObject):

@@ -1,4 +1,4 @@
-.from abc import abstractmethod
+from abc import abstractmethod
 from collections import deque
 from copy import deepcopy
 from datetime import date
@@ -9,8 +9,8 @@ from typing import Any, Dict, Iterable, List, Optional, Tuple, Union, final
 from numpy import array, cos, exp, inf, log, ndarray, sin, zeros
 from wx import FileSelectorDefaultWildcardStr
 
-from .core import RestrictedStorableListBase, StorableObject
-from .util import GetFileName, HasValidElement
+from core import RestrictedStorableListBase, StorableObject
+from util import GetFileName, HasValidElement
 
 # default value is not storable
 

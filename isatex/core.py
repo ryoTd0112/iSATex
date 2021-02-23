@@ -1,5 +1,5 @@
 from abc import ABCMeta, abstractmethod
-from .util import RestrictedList, Singleton
+from util import RestrictedList, Singleton
 
 
 class iSATexObject:

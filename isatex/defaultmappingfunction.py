@@ -1,6 +1,6 @@
 from numpy import array, inf
 
-from .objects import MappingFunctionContainerBase
+from objects import MappingFunctionContainerBase
 
 
 class FTIR_WaterContentMapping(MappingFunctionContainerBase):

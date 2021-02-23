@@ -9,7 +9,7 @@ from scipy.interpolate import (Akima1DInterpolator, BarycentricInterpolator,
 from scipy.optimize import curve_fit
 from scipy.signal import find_peaks, savgol_filter
 
-from .objects import (ChoiceContainer, FloatContainer, IntContainer,
+from objects import (ChoiceContainer, FloatContainer, IntContainer,
                      ListArgumentContainer, OptionalFloatContainer,
                      PeakFunctionContainerList, SpectrumFunctionContainerBase)
 

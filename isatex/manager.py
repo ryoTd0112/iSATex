@@ -26,7 +26,7 @@ from wx.lib.agw.aui.framemanager import (AUI_BUTTON_CLOSE,
                                          AUI_MGR_TRANSPARENT_DRAG, AuiManager,
                                          AuiPaneInfo)
 
-from .const import (ABOUT_MENU_ITEM, COLOR, COLOR_THEME,
+from const import (ABOUT_MENU_ITEM, COLOR, COLOR_THEME,
                    COLOR_THEME_FOLDER_PATH, COLOR_THEME_LIST, COLORMAP, CUSTOM,
                    DATA_BUFFER_SIZE, DATA_MANAGER, DECODE, DECODE_ENCODING,
                    DECODE_FUNCTION_CLASS_LIST, DEFAULT, DEFAULT_COLOR_THEME,
@@ -56,14 +56,14 @@ from .const import (ABOUT_MENU_ITEM, COLOR, COLOR_THEME,
                    SPECTRUM_PANEL, STORABLE_OBJECT_DICT, SUCCESS_COLOR,
                    TABLE_SIZE, TEMPORARY, TUTORIAL_MENU_ITEM, UNKNOWN,
                    VIEW_MENU, WINDOW_SIZE)
-from .container import (CustomCheckMenuItemBase, CustomMenuItemBase,
+from container import (CustomCheckMenuItemBase, CustomMenuItemBase,
                        CustomNormalMenuItemBase, CustomRadioMenuItemBase,
                        EventReceptorBase, LayoutMenuItem, PanelBase,
                        PeakMenuItem, ShowPanelMenuItem)
-from .control import SaveCheckDialog
-from .core import (CommunicableObjectBase, RestrictedStorableListBase,
+from control import SaveCheckDialog
+from core import (CommunicableObjectBase, RestrictedStorableListBase,
                   SettingStorableObjectBase, StorableObject, iSATexObject)
-from .defaultevent import (ColormapChangeEvent, ColorRegisterEvent,
+from defaultevent import (ColormapChangeEvent, ColorRegisterEvent,
                           ColorSelectionEvent, DataContentsChangeEvent,
                           DataSelectionChangeEvent, DecodeEvent,
                           DecodeFunctionDeregisterEvent,
@@ -110,8 +110,8 @@ from .defaultevent import (ColormapChangeEvent, ColorRegisterEvent,
                           wxEVT_SPECTRUM_FUNCTION_LIST_SELECT,
                           wxEVT_SPECTRUM_FUNCTION_REGISTER,
                           wxEVT_TABLE_SIZE_CHANGE)
-from .defaultpanel import SpectrumPanel
-from .objects import (DEFAULT_BUFFER_SIZE, DEFAULT_DECODE_FUNCTION,
+from defaultpanel import SpectrumPanel
+from objects import (DEFAULT_BUFFER_SIZE, DEFAULT_DECODE_FUNCTION,
                      DEFAULT_DIRECTION_CONTAINER, DEFAULT_ENCODE_FUNCTION,
                      DEFAULT_MAPPING_FUNCTION, DEFAULT_PEAK_TYPE,
                      NEW_PROJECT_NAME, ArgumentContainerBase,
@@ -122,7 +122,7 @@ from .objects import (DEFAULT_BUFFER_SIZE, DEFAULT_DECODE_FUNCTION,
                      PeakFunctionContainerBase, PeakFunctionContainerList,
                      PeakType, Preset, Project, Recipe, Spectrum,
                      SpectrumFunctionContainerBase)
-from .util import (Camel2Pascal, DotChain, DotNotationDict,
+from util import (Camel2Pascal, DotChain, DotNotationDict,
                   FindWindowToAncestors, GetFileName, GetShowPanelLabel,
                   HasValidElement, Singleton)
 

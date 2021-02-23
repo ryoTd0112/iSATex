@@ -1,4 +1,4 @@
-.from math import floor, isclose
+from math import floor, isclose
 from os.path import basename
 
 from keyboard import is_pressed
@@ -27,15 +27,15 @@ from wx.lib.agw.ultimatelistctrl import (EVT_LIST_ITEM_DESELECTED,
                                          ULC_REPORT, UltimateListCtrl)
 from wx.lib.scrolledpanel import ScrolledPanel
 
-from .const import (COLOR_MANAGER, DATA_MANAGER, FUNCTION_MANAGER,
+from const import (COLOR_MANAGER, DATA_MANAGER, FUNCTION_MANAGER,
                    MAPPING_MANAGER, PEAK_MANAGER)
-from .container import PanelBase
-from .control import (AddButton, ClearButton, ColormapEntry, ExecuteButton,
+from container import PanelBase
+from control import (AddButton, ClearButton, ColormapEntry, ExecuteButton,
                      FunctionArgumentEntry, FunctionListEntry, HelpButton,
                      LabeledValidateEntry, NormalComboBox, NormalEntry,
                      NormalLine, NormalText, RegisterButton, RegisterDialog,
                      SetButton)
-from .objects import (ChoiceContainer, DataContainer, IntContainer, Preset,
+from objects import (ChoiceContainer, DataContainer, IntContainer, Preset,
                      Recipe, SpectrumFunctionContainerBase)
 
 

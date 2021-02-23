@@ -6,7 +6,7 @@ from numpy import array, inf, meshgrid
 from wx import (DEFAULT_DIALOG_STYLE, FD_FILE_MUST_EXIST, FD_OPEN, FD_SAVE,
                 ICON_NONE, ID_CANCEL, FileDialog, LogError, MessageDialog)
 
-from .const import (ABOUT_MENU_ITEM, DATA_MANAGER, DECODE_MANAGER,
+from const import (ABOUT_MENU_ITEM, DATA_MANAGER, DECODE_MANAGER,
                    ENCODE_MANAGER, EXPORT_MENU_ITEM, EXPORT_PLUGIN_MENU_ITEM,
                    FUNCTION_MANAGER, IMPORT_PLUGIN_MENU_ITEM, LAYOUT_MENU,
                    MENUBAR_MANAGER, NEW_MENU_ITEM, NEW_MENU_ITEM_HELP,
@@ -14,10 +14,10 @@ from .const import (ABOUT_MENU_ITEM, DATA_MANAGER, DECODE_MANAGER,
                    PREFERENCE_MENU_ITEM, PROJECT_MANAGER,
                    PROJECT_MEMO_MENU_ITEM, SAVE_AS_MENU_ITEM, SAVE_MENU_ITEM,
                    SAVEFILE_WILDCARD, TUTORIAL_MENU_ITEM)
-from .container import CustomNormalMenuItemBase
-from .control import (ExportDialog, NewDialog, PreferenceDialog,
+from container import CustomNormalMenuItemBase
+from control import (ExportDialog, NewDialog, PreferenceDialog,
                      ProjectMemoDialog)
-from .objects import DEFAULT_PEAK, DataContainer, Spectrum
+from objects import DEFAULT_PEAK, DataContainer, Spectrum
 
 
 class NewMenuItem(CustomNormalMenuItemBase):
