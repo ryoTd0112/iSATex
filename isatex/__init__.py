@@ -2,8 +2,10 @@
 
 import sys
 import os
+from pathlib import Path
 
-sys.path.append('./isatex')
+parent_dir = str(Path('__file__').resolve().parent)
+sys.path.append(parent_dir)
 
 from const import *
 from container import *

@@ -35,7 +35,7 @@ Installation
 
 ::
 
-    pip install matplotlib, wxPython, scipy, keyboard
+    pip install isatex
 
 Usage
 =============
@@ -43,8 +43,7 @@ Usage
 ::
 
     git clone https://github.com/ryoTd0112/iSATex
-    cd src
-    python main.py
+    python isatex/main.py
 
 License
 =============
